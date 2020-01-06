@@ -1,0 +1,18 @@
+C:\Users\Dario Ragusa\AppData\Local\Temporary Projects\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.exe
+C:\Users\Dario Ragusa\AppData\Local\Temporary Projects\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.pdb
+C:\Users\Dario Ragusa\AppData\Local\Temporary Projects\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.xml
+C:\Users\Dario Ragusa\AppData\Local\Temporary Projects\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Form1.resources
+C:\Users\Dario Ragusa\AppData\Local\Temporary Projects\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Resources.resources
+C:\Users\Dario Ragusa\AppData\Local\Temporary Projects\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.vbproj.GenerateResource.Cache
+C:\Users\Dario Ragusa\AppData\Local\Temporary Projects\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.exe
+C:\Users\Dario Ragusa\AppData\Local\Temporary Projects\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.xml
+C:\Users\Dario Ragusa\AppData\Local\Temporary Projects\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.pdb
+F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.exe
+F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.xml
+F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.pdb
+F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.exe
+F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.pdb
+F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.xml
+F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Form1.resources
+F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Resources.resources
+F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.vbproj.GenerateResource.Cache
