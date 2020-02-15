@@ -16,3 +16,12 @@ F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLib
 F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Form1.resources
 F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Resources.resources
 F:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.vbproj.GenerateResource.Cache
+K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.exe
+K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.xml
+K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.pdb
+K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.exe
+K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.pdb
+K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.xml
+K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Form1.resources
+K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Resources.resources
+K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.vbproj.GenerateResource.Cache

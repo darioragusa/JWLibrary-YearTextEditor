@@ -1,59 +1,59 @@
 ﻿Imports System
 Imports System.IO
 Public Class Form1
-    Dim JsonPath As String = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\Packages"
-    Dim JsonText As String
-    Const JsonYearText As String = "e.markup"
+    Dim JavaScriptPath As String = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\Packages"
+    Dim JavaScriptText As String
+    Const JavaScriptYearText As String = "e.markup"
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         ChangeLanguage()
-        If IO.Directory.Exists(JsonPath) Then
-            For Each Dir As String In Directory.GetDirectories(JsonPath)
+        If IO.Directory.Exists(JavaScriptPath) Then
+            For Each Dir As String In Directory.GetDirectories(JavaScriptPath)
                 If LCase(Dir).Contains("watchtower") Then
-                    JsonPath = Dir & "\LocalState\www\webapp\YearTextDisplay.bundle.js"
+                    JavaScriptPath = Dir & "\LocalState\www\webapp\YearTextDisplay.bundle.js"
                     Exit For
                 End If
             Next
         End If
-        If Not System.IO.File.Exists(JsonPath) Then
+        If Not System.IO.File.Exists(JavaScriptPath) Then
             MsgBox(Strings.Error1Text, MsgBoxStyle.Critical, Strings.Error1Text)
             Return
         End If
-        Dim myStream = System.IO.File.OpenText(JsonPath)
-        JsonText = myStream.ReadToEnd()
+        Dim myStream = System.IO.File.OpenText(JavaScriptPath)
+        JavaScriptText = myStream.ReadToEnd()
         myStream.Close()
 
-        Dim JsonPart1 = Split(JsonText, "\r\n    font-size: ")(0) & "\r\n    font-size: "
-        Dim JsonPart2 = "vw;\r\n    text-align: center;" & Split(Split(JsonText, "\r\n    font-size: ")(1), "vw;\r\n    text-align: center;")(1)
-        Dim ActFontSize = JsonText.Replace(JsonPart1, "") : ActFontSize = ActFontSize.Replace(JsonPart2, "")
+        Dim JavaScriptPart1 = Split(JavaScriptText, "\r\n    font-size: ")(0) & "\r\n    font-size: "
+        Dim JavaScriptPart2 = "vw;\r\n    text-align: center;" & Split(Split(JavaScriptText, "\r\n    font-size: ")(1), "vw;\r\n    text-align: center;")(1)
+        Dim ActFontSize = JavaScriptText.Replace(JavaScriptPart1, "") : ActFontSize = ActFontSize.Replace(JavaScriptPart2, "")
         NumericUpDown1.Value = Val(ActFontSize)
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Dim PreJson = JsonChangeText(JsonText, TextBox1.Text)
-        Dim NewJson = JsonChangeFontSize(PreJson)
-        Dim sWriter As New IO.StreamWriter(JsonPath, False)
-        sWriter.Write(NewJson)
+        Dim PreJavaScript = JavaScriptChangeText(JavaScriptText, TextBox1.Text)
+        Dim NewJavaScript = JavaScriptChangeFontSize(PreJavaScript)
+        Dim sWriter As New IO.StreamWriter(JavaScriptPath, False)
+        sWriter.Write(NewJavaScript)
         sWriter.Close()
     End Sub
 
-    Function JsonChangeText(ByVal Json As String, ByVal Text As String) As String
+    Function JavaScriptChangeText(ByVal JavaScript As String, ByVal Text As String) As String
         Dim VarS As String = "},dangerouslySetInnerHTML:{__html:"
-        Dim JsonPart1 As String = Split(Json, VarS)(0) & "},dangerouslySetInnerHTML:{__html:"
-        Dim JsonPart2 As String = "}}))}" & Split(Split(Json, VarS)(1), "}}))}")(1)
+        Dim JavaScriptPart1 As String = Split(JavaScript, VarS)(0) & "},dangerouslySetInnerHTML:{__html:"
+        Dim JavaScriptPart2 As String = "}}))}" & Split(Split(JavaScript, VarS)(1), "}}))}")(1)
         If CheckBox1.Checked Then
-            JsonChangeText = JsonPart1 & JsonYearText & JsonPart2
+            JavaScriptChangeText = JavaScriptPart1 & JavaScriptYearText & JavaScriptPart2
         Else
-            JsonChangeText = JsonPart1 & """" & CheckText(Text) & """"
-            If CheckBox2.Checked Then JsonChangeText &= ".bold()"
-            JsonChangeText &= JsonPart2
+            JavaScriptChangeText = JavaScriptPart1 & """" & CheckText(Text) & """"
+            If CheckBox2.Checked Then JavaScriptChangeText &= ".bold()"
+            JavaScriptChangeText &= JavaScriptPart2
         End If
     End Function
 
-    Function JsonChangeFontSize(ByVal Json As String) As String
-        Dim JsonPart1 = Split(Json, "\r\n    font-size: ")(0) & "\r\n    font-size: "
-        Dim JsonPart2 = "vw;\r\n    text-align: center;" & Split(Split(Json, "\r\n    font-size: ")(1), "vw;\r\n    text-align: center;")(1)
-        JsonChangeFontSize = JsonPart1 & FormatNumber(NumericUpDown1.Value, 2).Replace(",", ".") & JsonPart2
+    Function JavaScriptChangeFontSize(ByVal JavaScript As String) As String
+        Dim JavaScriptPart1 = Split(JavaScript, "\r\n    font-size: ")(0) & "\r\n    font-size: "
+        Dim JavaScriptPart2 = "vw;\r\n    text-align: center;" & Split(Split(JavaScript, "\r\n    font-size: ")(1), "vw;\r\n    text-align: center;")(1)
+        JavaScriptChangeFontSize = JavaScriptPart1 & FormatNumber(NumericUpDown1.Value, 2).Replace(",", ".") & JavaScriptPart2
     End Function
 
     Function CheckText(ByVal Text As String) As String
