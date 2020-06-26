@@ -25,3 +25,21 @@ K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLib
 K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Form1.resources
 K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Resources.resources
 K:\Cose scuola\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.vbproj.GenerateResource.Cache
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.exe
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.xml
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.pdb
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.exe
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.pdb
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.xml
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Form1.resources
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Resources.resources
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.vbproj.GenerateResource.Cache
+C:\Users\Dario Ragusa\Desktop\Projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.exe
+C:\Users\Dario Ragusa\Desktop\Projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.xml
+C:\Users\Dario Ragusa\Desktop\Projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.pdb
+C:\Users\Dario Ragusa\Desktop\Projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.exe
+C:\Users\Dario Ragusa\Desktop\Projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.pdb
+C:\Users\Dario Ragusa\Desktop\Projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\bin\Debug\JWLibrary-YearTextEditor.xml
+C:\Users\Dario Ragusa\Desktop\Projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Form1.resources
+C:\Users\Dario Ragusa\Desktop\Projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary_YearTextEditor.Resources.resources
+C:\Users\Dario Ragusa\Desktop\Projects\JWLibrary-YearTextEditor\JWLibrary-YearTextEditor\obj\x86\Debug\JWLibrary-YearTextEditor.vbproj.GenerateResource.Cache

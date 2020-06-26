@@ -6,6 +6,7 @@ Public Class Form1
     Const JavaScriptYearText As String = "e.markup"
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Me.Icon = My.Resources.Ico
         ChangeLanguage()
         If IO.Directory.Exists(JavaScriptPath) Then
             For Each Dir As String In Directory.GetDirectories(JavaScriptPath)

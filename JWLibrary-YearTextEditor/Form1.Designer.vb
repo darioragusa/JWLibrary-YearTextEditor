@@ -114,7 +114,6 @@ Partial Class Form1
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "Form1"
-        Me.ShowIcon = False
         Me.Text = "JWLibrary-YearTextEditor"
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
