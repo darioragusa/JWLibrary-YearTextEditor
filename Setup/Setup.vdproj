@@ -93,6 +93,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -199,15 +207,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:JWLibrary-YearTextEditor"
-        "ProductCode" = "8:{7C609C65-26D9-4875-A959-E949FA1217AA}"
-        "PackageCode" = "8:{9846C06E-7D71-4DBE-AEB6-1BCB550E528D}"
+        "ProductCode" = "8:{12FC4D03-36D0-45E3-82FB-F17BF2F159F9}"
+        "PackageCode" = "8:{59845836-0576-467E-830E-DBADFCBDA943}"
         "UpgradeCode" = "8:{DAF65896-4609-402D-A1A7-E7B7E2F13611}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Dario Ragusa"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -361,7 +369,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8DE645BAC27B416F9208302C6A7C4631"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Welcome"
+                    "DisplayName" = "8:Introduzione"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
@@ -409,7 +417,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_9A614C870CDB4963ACDBCE7173508C53"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
+                    "DisplayName" = "8:Cartella di installazione"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
@@ -431,7 +439,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B95FA66C41AE4E78942AE313D807BFC0"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
+                    "DisplayName" = "8:Conferma installazione"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
@@ -462,7 +470,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_CC4193DEF0AD46C09B6238ADE80D4243"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Progress"
+                    "DisplayName" = "8:Stato"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
@@ -506,7 +514,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_07D8349C7CB84B108AA92A43618B56D9"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Progress"
+                    "DisplayName" = "8:Stato"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
@@ -550,7 +558,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2EAD6F1536D04E208399171F43A9D704"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
+                    "DisplayName" = "8:Cartella di installazione"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
@@ -585,7 +593,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F592132A230F4A64A4D19275149852EA"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Welcome"
+                    "DisplayName" = "8:Introduzione"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
@@ -633,7 +641,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F6E6B7BD55124F199140AC0E0DE42AAD"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
+                    "DisplayName" = "8:Conferma installazione"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
@@ -664,7 +672,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D793EACCCADF445BB11BBC1F6A73E165"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Finished"
+                    "DisplayName" = "8:Installazione completata"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
@@ -707,7 +715,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_5EF0EDF47C2E47699A2D3C665280481A"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Finished"
+                    "DisplayName" = "8:Installazione completata"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"

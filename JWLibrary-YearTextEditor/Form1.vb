@@ -3,7 +3,8 @@ Imports System.IO
 Public Class Form1
     Dim JavaScriptPath As String = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\Packages"
     Dim JavaScriptText As String
-    Const JavaScriptYearText As String = "e.markup"
+    Const JavaScriptYearText As String = "r.markup"
+    Const FontSizeSeparator As String = ".year-text{color:#F7F7F5;font-size:"
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.Icon = My.Resources.Ico
@@ -24,10 +25,14 @@ Public Class Form1
         JavaScriptText = myStream.ReadToEnd()
         myStream.Close()
 
-        Dim JavaScriptPart1 = Split(JavaScriptText, "\r\n    font-size: ")(0) & "\r\n    font-size: "
-        Dim JavaScriptPart2 = "vw;\r\n    text-align: center;" & Split(Split(JavaScriptText, "\r\n    font-size: ")(1), "vw;\r\n    text-align: center;")(1)
-        Dim ActFontSize = JavaScriptText.Replace(JavaScriptPart1, "") : ActFontSize = ActFontSize.Replace(JavaScriptPart2, "")
-        NumericUpDown1.Value = Val(ActFontSize)
+        Try
+            Dim JavaScriptPart1 = Split(JavaScriptText, FontSizeSeparator)(0) & FontSizeSeparator
+            Dim JavaScriptPart2 = "vw;text-align:center" & Split(Split(JavaScriptText, FontSizeSeparator)(1), "vw;text-align:center")(1)
+            Dim ActFontSize = JavaScriptText.Replace(JavaScriptPart1, "") : ActFontSize = ActFontSize.Replace(JavaScriptPart2, "")
+            NumericUpDown1.Value = Val(ActFontSize)
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
@@ -52,9 +57,14 @@ Public Class Form1
     End Function
 
     Function JavaScriptChangeFontSize(ByVal JavaScript As String) As String
-        Dim JavaScriptPart1 = Split(JavaScript, "\r\n    font-size: ")(0) & "\r\n    font-size: "
-        Dim JavaScriptPart2 = "vw;\r\n    text-align: center;" & Split(Split(JavaScript, "\r\n    font-size: ")(1), "vw;\r\n    text-align: center;")(1)
-        JavaScriptChangeFontSize = JavaScriptPart1 & FormatNumber(NumericUpDown1.Value, 2).Replace(",", ".") & JavaScriptPart2
+        JavaScriptChangeFontSize = ""
+        Try
+            Dim JavaScriptPart1 = Split(JavaScript, FontSizeSeparator)(0) & FontSizeSeparator
+            Dim JavaScriptPart2 = "vw;text-align:center" & Split(Split(JavaScript, FontSizeSeparator)(1), "vw;text-align:center")(1)
+            JavaScriptChangeFontSize = JavaScriptPart1 & FormatNumber(NumericUpDown1.Value, 2).Replace(",", ".") & JavaScriptPart2
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
     End Function
 
     Function CheckText(ByVal Text As String) As String
